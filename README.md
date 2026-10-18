@@ -19,16 +19,19 @@ read.
 | Path | Contents |
 |---|---|
 | `cpaudit/` | the code: scores (`baselines/`), calibration (`calib/`), splits and caches (`data/`), statistics (`eval/`), every analysis (`bench/`), figures (`figures/`), score extraction (`extract/`), the learned-head controls (`model/`) |
-| `paper/` | manuscript source, references, figures, `claims.py`, `verify.py` |
+| `paper/` | the paper's figures and `claims.py` |
 | `paper/materials/` | item identifiers, split assignments, selected configurations, VQA-RAD organ map, search grids, extraction record, score caches |
 | `results/metrics/bench_*.csv` | per-split results behind every number in the paper |
 | `tests/test_protocol.py` | protocol tests |
 
-## Check the paper against the results (no data or GPU needed)
+## Recompute the paper's numbers (no data or GPU needed)
 
     pip install -r requirements.txt
-    python paper/claims.py    # recomputes every pinned number from the CSVs
-    python paper/verify.py    # numbers, citations, figures, references, float order
+    python paper/claims.py
+
+`claims.py` recomputes the numbers printed in the paper (393 of them, from
+Tables I-IV and the text) from `results/metrics/` and lists each with the CSV it
+comes from, for comparison against the published paper.
 
 ## Re-run analyses from the score caches
 

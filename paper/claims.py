@@ -18,6 +18,9 @@ printed instance is correct. A value appearing in both a table and the prose can
 be corrupted in one place and still pass. Catching that needs position-aware
 claims, which would be brittle against ordinary rewriting.
 
+Without main.tex (the public repository ships the paper's numbers, not its
+source), it prints every recomputed number with its source CSV instead.
+
 Run:  python paper/claims.py
 """
 from __future__ import annotations
@@ -675,7 +678,23 @@ def tex_number_tokens(tex: str) -> set[str]:
     return {s + n for s, n in toks} | {n for _, n in toks}
 
 
+def listing():
+    """Without the manuscript source: every pinned number, recomputed, with
+    the CSV it comes from, for comparison against the published paper."""
+    n = 0
+    for label, value, dp, src in claims():
+        if value != value:              # NaN: nothing to pin
+            continue
+        print(f"  {label:<52s} {value:>12.{dp}f}   [{src}]")
+        n += 1
+    print(f"\n{n} numbers recomputed from results/metrics/ "
+          f"({TEX.name} not present, so not matched against the text)")
+    return True
+
+
 def main():
+    if not TEX.exists():
+        return listing()
     tex = TEX.read_text(encoding="utf-8")
     # TikZ coordinates are layout; left in, a value like 0.62 could satisfy a
     # pin by coincidence.
