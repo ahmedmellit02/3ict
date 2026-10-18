@@ -1,0 +1,387 @@
+{
+ "base-LAC": [
+  {
+   "temp": 0.25
+  },
+  {
+   "temp": 0.5
+  },
+  {
+   "temp": 1.0
+  },
+  {
+   "temp": 2.0
+  },
+  {
+   "temp": 4.0
+  },
+  {
+   "temp": 8.0
+  }
+ ],
+ "APS": [
+  {
+   "temp": 0.25
+  },
+  {
+   "temp": 0.5
+  },
+  {
+   "temp": 1.0
+  },
+  {
+   "temp": 2.0
+  },
+  {
+   "temp": 4.0
+  },
+  {
+   "temp": 8.0
+  }
+ ],
+ "RAPS": [
+  {
+   "temp": 0.25,
+   "gamma": 0.0,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.25,
+   "gamma": 0.0,
+   "k_reg": 2
+  },
+  {
+   "temp": 0.25,
+   "gamma": 0.01,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.25,
+   "gamma": 0.01,
+   "k_reg": 2
+  },
+  {
+   "temp": 0.25,
+   "gamma": 0.05,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.25,
+   "gamma": 0.05,
+   "k_reg": 2
+  },
+  {
+   "temp": 0.25,
+   "gamma": 0.1,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.25,
+   "gamma": 0.1,
+   "k_reg": 2
+  },
+  {
+   "temp": 0.25,
+   "gamma": 0.3,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.25,
+   "gamma": 0.3,
+   "k_reg": 2
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.0,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.0,
+   "k_reg": 2
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.01,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.01,
+   "k_reg": 2
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.05,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.05,
+   "k_reg": 2
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.1,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.1,
+   "k_reg": 2
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.3,
+   "k_reg": 1
+  },
+  {
+   "temp": 0.5,
+   "gamma": 0.3,
+   "k_reg": 2
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.0,
+   "k_reg": 1
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.0,
+   "k_reg": 2
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.01,
+   "k_reg": 1
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.01,
+   "k_reg": 2
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.05,
+   "k_reg": 1
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.05,
+   "k_reg": 2
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.1,
+   "k_reg": 1
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.1,
+   "k_reg": 2
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.3,
+   "k_reg": 1
+  },
+  {
+   "temp": 1.0,
+   "gamma": 0.3,
+   "k_reg": 2
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.0,
+   "k_reg": 1
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.0,
+   "k_reg": 2
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.01,
+   "k_reg": 1
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.01,
+   "k_reg": 2
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.05,
+   "k_reg": 1
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.05,
+   "k_reg": 2
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.1,
+   "k_reg": 1
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.1,
+   "k_reg": 2
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.3,
+   "k_reg": 1
+  },
+  {
+   "temp": 2.0,
+   "gamma": 0.3,
+   "k_reg": 2
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.0,
+   "k_reg": 1
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.0,
+   "k_reg": 2
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.01,
+   "k_reg": 1
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.01,
+   "k_reg": 2
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.05,
+   "k_reg": 1
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.05,
+   "k_reg": 2
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.1,
+   "k_reg": 1
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.1,
+   "k_reg": 2
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.3,
+   "k_reg": 1
+  },
+  {
+   "temp": 4.0,
+   "gamma": 0.3,
+   "k_reg": 2
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.0,
+   "k_reg": 1
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.0,
+   "k_reg": 2
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.01,
+   "k_reg": 1
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.01,
+   "k_reg": 2
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.05,
+   "k_reg": 1
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.05,
+   "k_reg": 2
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.1,
+   "k_reg": 1
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.1,
+   "k_reg": 2
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.3,
+   "k_reg": 1
+  },
+  {
+   "temp": 8.0,
+   "gamma": 0.3,
+   "k_reg": 2
+  }
+ ],
+ "order": "temperature ascending, then gamma, then k_reg; ties in the selection objective go to the first entry",
+ "raps_extra": [
+  {
+   "gamma": 0.0,
+   "k_reg": 1
+  },
+  {
+   "gamma": 0.0,
+   "k_reg": 2
+  },
+  {
+   "gamma": 0.01,
+   "k_reg": 1
+  },
+  {
+   "gamma": 0.01,
+   "k_reg": 2
+  },
+  {
+   "gamma": 0.05,
+   "k_reg": 1
+  },
+  {
+   "gamma": 0.05,
+   "k_reg": 2
+  },
+  {
+   "gamma": 0.1,
+   "k_reg": 1
+  },
+  {
+   "gamma": 0.1,
+   "k_reg": 2
+  },
+  {
+   "gamma": 0.3,
+   "k_reg": 1
+  },
+  {
+   "gamma": 0.3,
+   "k_reg": 2
+  }
+ ]
+}

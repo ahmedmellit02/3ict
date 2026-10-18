@@ -1,0 +1,13 @@
+# Score extraction from the frozen models and the learned-head controls.
+#
+# Install the torch build matching your CUDA from https://pytorch.org first,
+# then:  pip install -r requirements.txt -r requirements-gpu.txt
+#
+# The paper's scores were produced with torch 2.11 (cu128) and transformers
+# 5.14 on a 12 GB card; Qwen2.5-VL-3B-Instruct in fp16 peaks at about 7.5 GB.
+
+torch>=2.4
+transformers>=5.14       # tested with 5.14.1 (Qwen2.5-VL and Qwen3-VL)
+accelerate>=0.30
+qwen-vl-utils            # image preprocessing for the Qwen2.5-VL processor
+pillow>=10.0

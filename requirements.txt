@@ -1,0 +1,12 @@
+# Every number in the paper is recomputed from the shipped CSVs and score
+# caches with these alone (no GPU):
+#
+#   pip install -r requirements.txt
+#
+# Re-extracting the scores from the frozen models, and the learned-head
+# controls of Section III, also need requirements-gpu.txt.
+
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10          # t-intervals, paired t, Wilcoxon (cpaudit.eval.stats)
+matplotlib>=3.7      # cpaudit.figures
